@@ -39,5 +39,7 @@
     <param name="APP_ID" value="187948741564200" />
     <param name="APP_NAME" value="Outerspace" />
 </gap:plugin>
+<plugin name="com.phonegap.plugins.facebookconnect" source="pgb" spec="n/a" />
+
 </widget>
  
