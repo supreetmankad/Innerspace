@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gap:plugin name="com.phonegap.plugins.facebookconnect" version="v2.5">
-        <param name="APP_ID" value="187948741564200" />
-        <param name="APP_NAME" value="Outerspace" />
-    </gap:plugin>
 
 <widget id="com.ionicframework.innerspace913913" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>InnerSpace</name>
@@ -40,4 +36,7 @@
   </platform>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
 </widget>
- 
+ <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0"> source="pgb">
+    <param name="APP_ID" value="187948741564200" />
+    <param name="APP_NAME" value="Outerspace" />
+</gap:plugin>
