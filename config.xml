@@ -35,7 +35,7 @@
   </platform>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
 </widget>
- <gap:plugin name="com.phonegap.plugins.facebookconnect" version="<VERSION>">
+ <gap:plugin name="com.phonegap.plugins.facebookconnect" version="2.5">
         <param name="APP_ID" value="187948741564200" />
         <param name="APP_NAME" value="Outerspace" />
     </gap:plugin>
